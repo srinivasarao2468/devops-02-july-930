@@ -10,6 +10,8 @@
 ``` Note: Other repository manager tools are Jfrog Artifactory```
 
 ## Step -1  Installing Nexus on Linux
+
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/apVNl4pKUhE/mq1.jpg?sqp=CKzT7uoF&rs=AOn4CLCQ7crhAsRaeGakdS88Di5c3dFXiQ)](https://www.youtube.com/watch?v=apVNl4pKUhE "Install Nexus on inux")
 - System Requirements
     - Java 1.8
     - 2 CPU and 4 GB RAM
@@ -59,7 +61,7 @@
 - Click on the button 'Create Rpository'
 
 ### Step-2 (Go to the server from where you want to upload docker images
-- Got Jenkins (In you case any server from wher you are uploading images)
+- ssh to Jenkins (In you case any server from wher you are uploading images)
 - ``` sudo vi /etc/docker/daemon.json ```
     ```
         {
